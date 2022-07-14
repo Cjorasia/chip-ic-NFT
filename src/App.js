@@ -13,13 +13,8 @@ function App() {
 
  const Loading = () => {
   <div className='loading' style={{ color: "white" }}>
-//    <ProgressBar
-//     borderColor='white'
-//     sliderColor='white'
-//     sliderBackground='rgb(0,0,0)'
-//    />
    Loading...
-  </div>;
+  </div>
  };
 
  useEffect(() => {
