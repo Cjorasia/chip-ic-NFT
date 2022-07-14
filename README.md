@@ -1,4 +1,5 @@
-![Screenshot] (Screenshot.png)
+
+![Screenshot](screenshot.png)
 
 Note - Heroku Link not working because of cors (opensea)
 https://chip-ic.herokuapp.com/
