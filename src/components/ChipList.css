@@ -1,0 +1,20 @@
+.chipList{
+    cursor: pointer;
+    display: flex;
+    overflow: scroll;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+
+}
+
+.chipList ::-webkit-scrollbar {
+    display: none;
+}
+
+.chipList {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
