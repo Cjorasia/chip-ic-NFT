@@ -23,9 +23,6 @@ function App() {
     "https://testnets-api.opensea.io/assets?asset_contract_address=0x33baB90d2FDa4a979c93323a88BD9216E072112d&order_direction=asc",{
     method: 'GET',
    mode: 'no-cors',
-   headers: {
-    'Content-Type': 'application/json',
-   },
 }
    ).then((response) => {
     return response.json();
