@@ -5,7 +5,7 @@ import CollectionCard from "./components/CollectionCard";
 import { useState, useEffect } from "react";
 import ChipList from "./components/ChipList";
 import Banner from "./components/Banner";
-import { ProgressBar } from "loading-animations-react";
+// import { ProgressBar } from "loading-animations-react";
 
 function App() {
  const [chipListData, setChipListData] = useState([]);
@@ -13,11 +13,12 @@ function App() {
 
  const Loading = () => {
   <div className='loading' style={{ color: "white" }}>
-   <ProgressBar
-    borderColor='white'
-    sliderColor='white'
-    sliderBackground='rgb(0,0,0)'
-   />
+//    <ProgressBar
+//     borderColor='white'
+//     sliderColor='white'
+//     sliderBackground='rgb(0,0,0)'
+//    />
+   Loading...
   </div>;
  };
 
